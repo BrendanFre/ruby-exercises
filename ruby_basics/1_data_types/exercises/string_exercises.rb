@@ -5,15 +5,20 @@ end
 
 def concatenate(string)
   # use concatenation to format the result to be "Hello <string>!"
+  "Hello " + string + "!"
 end
 
 def substrings(word)
   # return the first 4 letters from the word using substrings
+  word[0,4]
 end
 
 def capitalize(word)
   # capitalize the first letter of the word
+  word.capitalize
 end
+
+
 
 def uppercase(string)
   # uppercase all letters in the string
